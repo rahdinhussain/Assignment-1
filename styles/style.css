@@ -68,7 +68,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
-#inside-hero-section > button{
+#inside-hero-section  button{
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
@@ -345,3 +345,19 @@
     text-align: center;
 }
 /* Main section ends */
+/* Footer section starts */
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+}
+#inside-footer{
+    margin: 0 auto;
+    width: 1140px;
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+}
+/* Footer section ends */
