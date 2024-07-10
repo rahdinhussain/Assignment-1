@@ -35,14 +35,52 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 #hero-section{
-    background-image: url('assets');
-    width: 1140px;
-    margin: 0 auto;
+    background-image: url("../assets/Hero-bg.png");
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inside-hero-section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 998px;
+}
+#inside-hero-section > h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#inside-hero-section > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#inside-hero-section > button{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-top: 32px;
+    cursor: pointer;
 }
 /* Header section ends */
 /* Main section starts */
